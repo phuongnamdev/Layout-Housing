@@ -1,0 +1,20 @@
+.contact{
+    margin: 30px 0 45px;
+    .contact-content{
+        .contact-input{
+            input, textarea{
+                border-bottom: 2px solid gray;
+                background: rgb(239, 239, 239);
+            }
+        }
+        .contact-btn{
+            button {
+                @include button(white, black);
+                width: 100%;
+                &:hover{
+                    background-color: #00cdce;
+                }
+            }
+        }
+    }
+}

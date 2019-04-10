@@ -1,0 +1,46 @@
+header{
+    .myNavbar{
+        background-color: #333;
+        height: 70px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+        opacity: 0.9;
+        .navbar-brand{
+            p{
+                font-size: 50px;
+                color: white;
+                letter-spacing: 3px;
+            }
+            span{
+                color: #00cdce;
+            }
+        }
+        .navbar-nav{
+            .nav-item{
+                .nav-link{
+                    color: white;
+                    border-bottom: 2px solid white;
+                    margin: 0 15px;
+                    font-size: 17px;
+                    letter-spacing: 1px;
+                    &:hover{
+                        color: #00cdce;
+                        border: none;
+                        transition: all 0.5s;
+                        -webkit-transition: all 0.5s;
+                        -moz-transition: all 0.5s;
+                        -ms-transition: all 0.5s;
+                        -o-transition: all 0.5s;
+                    }
+                }
+                &.active>.nav-link{
+                    color: #00cdce;
+                    border: none;
+                }
+            }
+        }
+    }
+}

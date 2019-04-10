@@ -1,0 +1,32 @@
+.blog{
+    margin-top: 50px;
+    margin-bottom: 66px;
+    .blog-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 400px;
+        grid-gap: 10px;
+        .blog-item{
+            background-color: #efefef;
+            .blog-img{
+                img{
+                    width: 100%;
+                    border-top: 3px solid #00cdce;
+                }
+            }
+            .blog-word{
+                margin-left: 20px;
+                letter-spacing: 1px;
+                h4{
+                    color: #00cdce; 
+                }
+            }
+            .blog-btn{
+                button{
+                    @include button(#00cdce, white);
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}

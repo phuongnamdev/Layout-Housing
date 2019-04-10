@@ -1,0 +1,40 @@
+.about{
+    margin-top: 50px;
+    margin-bottom: 66px;
+    letter-spacing: 1px;
+    h1{
+        font-size: 50px;
+        margin-bottom: 33px;
+    }
+    .about-content{
+        .about-icon{
+            margin: 10px 0 20px;
+            span{
+                padding: 12px 21px;
+                font-size: 2rem;
+                border: 1px solid black;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                cursor: pointer;
+                &:hover{
+                    color: white;
+                    background-color: #00cdce;
+                    transition: 0.5s all;
+                    -webkit-transition: 0.5s all;
+                    -moz-transition: 0.5s all;
+                    -ms-transition: 0.5s all;
+                    -o-transition: 0.5s all;
+                }
+            }
+        }
+    }
+    .about-us{
+        margin-top: 30px;
+        h3{
+            color: #00cdce;
+        }
+    }
+}

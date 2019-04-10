@@ -1,0 +1,16 @@
+@mixin  button($color, $color-hover) {
+    color: $color;
+    background-color: black;
+    border: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding: 6px 20px;
+    &:hover{
+        color: $color-hover;
+        transition: .5s all;
+        -webkit-transition: .5s all;
+        -moz-transition: .5s all;
+        -ms-transition: .5s all;
+        -o-transition: .5s all;
+    }
+}

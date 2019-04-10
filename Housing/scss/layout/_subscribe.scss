@@ -1,0 +1,25 @@
+.subscribe{
+    background-color: #00cdce;
+    padding: 50px 270px;
+    letter-spacing: 1px;
+    h1{
+        margin-bottom: 40px;
+    }
+    p{
+        color: white;
+    }
+    input[type="text"] {
+        width: 72%;
+        height: 36px;
+        margin: 10px 0;
+    }
+    .subscribe-btn{
+        button{
+            @include button(white, #00cdce);
+            border: 1px solid white;
+            padding: 10px 55px;
+            margin: 5px;
+            font-size: 25px; 
+        }
+    }
+}

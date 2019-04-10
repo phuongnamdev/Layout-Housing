@@ -1,0 +1,14 @@
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 0 15px;
+}
+.carousel-control-prev, .carousel-control-next{
+    font-size: 60px;
+    width: 10%;
+}
